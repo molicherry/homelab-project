@@ -1756,7 +1756,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Modifier la ressource publique"
         case .es: return "Editar recurso publico"
         case .de: return "Offentliche Ressource bearbeiten"
-        case .en: return "Edit Public Resource"
+        default: return "Edit Public Resource"
         }
     }
 
@@ -1766,7 +1766,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Modifier la ressource privee"
         case .es: return "Editar recurso privado"
         case .de: return "Private Ressource bearbeiten"
-        case .en: return "Edit Private Resource"
+        default: return "Edit Private Resource"
         }
     }
 
@@ -1776,7 +1776,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Nom"
         case .es: return "Nombre"
         case .de: return "Name"
-        case .en: return "Name"
+        default: return "Name"
         }
     }
 
@@ -1786,7 +1786,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Cible"
         case .es: return "Destino"
         case .de: return "Ziel"
-        case .en: return "Target"
+        default: return "Target"
         }
     }
 
@@ -1796,7 +1796,7 @@ private enum PangolinEditorCopy {
         case .fr: return "IP cible"
         case .es: return "IP del destino"
         case .de: return "Ziel-IP"
-        case .en: return "Target IP"
+        default: return "Target IP"
         }
     }
 
@@ -1806,7 +1806,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Port cible"
         case .es: return "Puerto del destino"
         case .de: return "Ziel-Port"
-        case .en: return "Target Port"
+        default: return "Target Port"
         }
     }
 
@@ -1816,7 +1816,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Cible active"
         case .es: return "Destino activo"
         case .de: return "Ziel aktiv"
-        case .en: return "Target Enabled"
+        default: return "Target Enabled"
         }
     }
 
@@ -1830,7 +1830,7 @@ private enum PangolinEditorCopy {
         case .fr: return "SSO Pangolin"
         case .es: return "SSO de Pangolin"
         case .de: return "Pangolin SSO"
-        case .en: return "Pangolin SSO"
+        default: return "Pangolin SSO"
         }
     }
 
@@ -1840,7 +1840,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Mode"
         case .es: return "Modo"
         case .de: return "Modus"
-        case .en: return "Mode"
+        default: return "Mode"
         }
     }
 
@@ -1850,7 +1850,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Destination"
         case .es: return "Destino"
         case .de: return "Ziel"
-        case .en: return "Destination"
+        default: return "Destination"
         }
     }
 
@@ -1864,7 +1864,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Ports TCP"
         case .es: return "Puertos TCP"
         case .de: return "TCP-Ports"
-        case .en: return "TCP Ports"
+        default: return "TCP Ports"
         }
     }
 
@@ -1874,7 +1874,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Ports UDP"
         case .es: return "Puertos UDP"
         case .de: return "UDP-Ports"
-        case .en: return "UDP Ports"
+        default: return "UDP Ports"
         }
     }
 
@@ -1884,7 +1884,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Port auth daemon"
         case .es: return "Puerto auth daemon"
         case .de: return "Auth-Daemon-Port"
-        case .en: return "Auth Daemon Port"
+        default: return "Auth Daemon Port"
         }
     }
 
@@ -1894,7 +1894,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Mode auth daemon"
         case .es: return "Modo auth daemon"
         case .de: return "Auth-Daemon-Modus"
-        case .en: return "Auth Daemon Mode"
+        default: return "Auth Daemon Mode"
         }
     }
 
@@ -1904,7 +1904,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Desactiver ICMP"
         case .es: return "Desactivar ICMP"
         case .de: return "ICMP deaktivieren"
-        case .en: return "Disable ICMP"
+        default: return "Disable ICMP"
         }
     }
 
@@ -1922,7 +1922,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Site"
         case .es: return "Sitio"
         case .de: return "Site"
-        case .en: return "Site"
+        default: return "Site"
         }
     }
 
@@ -1932,7 +1932,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Distant"
         case .es: return "Remoto"
         case .de: return "Remote"
-        case .en: return "Remote"
+        default: return "Remote"
         }
     }
 
@@ -1942,7 +1942,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Aucun"
         case .es: return "Ninguno"
         case .de: return "Keine"
-        case .en: return "None"
+        default: return "None"
         }
     }
 
@@ -1952,12 +1952,12 @@ private enum PangolinEditorCopy {
         case (.machine, .fr): return "Client machine"
         case (.machine, .es): return "Cliente de maquina"
         case (.machine, .de): return "Maschinen-Client"
-        case (.machine, .en): return "Machine Client"
+        case (.machine, .en), (.machine, .zh): return "Machine Client"
         case (.userDevice, .it): return "Dispositivo utente"
         case (.userDevice, .fr): return "Appareil utilisateur"
         case (.userDevice, .es): return "Dispositivo de usuario"
         case (.userDevice, .de): return "Benutzergerat"
-        case (.userDevice, .en): return "User Device"
+        case (.userDevice, .en), (.userDevice, .zh): return "User Device"
         }
     }
 
@@ -1967,7 +1967,7 @@ private enum PangolinEditorCopy {
         case .fr: return "Agent \(value)"
         case .es: return "Agente \(value)"
         case .de: return "Agent \(value)"
-        case .en: return "Agent \(value)"
+        default: return "Agent \(value)"
         }
     }
 }
@@ -2448,6 +2448,92 @@ extension PangolinStrings {
                 trafficAmountFormat: "Traffic %@"
             )
         case .en:
+            return PangolinStrings(
+                serviceDescription: "Reverse proxy, tunneling and zero-trust networking",
+                loginHint: "Use a Pangolin integration API key. If using an org-scoped key (no root access), also enter your Organization ID.",
+                orgIdPlaceholder: "Organization ID (optional)",
+                sitesClientsLabel: "Sites / clients",
+                overviewSubtitle: "Reverse proxy, tunneling and zero-trust network overview",
+                organizations: "Organizations",
+                sites: "Sites",
+                privateResources: "Private Resources",
+                createPrivateResource: "Create private resource",
+                publicResources: "Public Resources",
+                createPublicResource: "Create public resource",
+                clients: "Clients",
+                domains: "Domains",
+                traffic: "Traffic",
+                ingressEgress: "Ingress + egress",
+                org: "Org",
+                utility: "Utility",
+                billing: "Billing",
+                enabled: "Enabled",
+                disabled: "Disabled",
+                enableAction: "Enable resource",
+                disableAction: "Disable resource",
+                online: "Online",
+                offline: "Offline",
+                blocked: "Blocked",
+                archived: "Archived",
+                pending: "Pending",
+                verified: "Verified",
+                failed: "Failed",
+                managed: "Managed",
+                manual: "Manual",
+                wildcard: "Wildcard",
+                whitelist: "Whitelist",
+                healthCheck: "Health check",
+                agentUpdate: "Agent update",
+                newtUpdate: "Newt update",
+                icmpOff: "ICMP off",
+                noOrganizations: "No Pangolin organizations available for this API key",
+                noSites: "No Pangolin sites found",
+                noPrivateResources: "No private resources configured",
+                noPublicResources: "No public resources configured",
+                noClients: "No clients enrolled",
+                noDomains: "No managed domains",
+                site: "Site",
+                protocolLabel: "Protocol",
+                domainLabel: "Domain",
+                subdomainLabel: "Subdomain",
+                backendMethodLabel: "Backend method",
+                proxyPortLabel: "Proxy port",
+                httpResource: "HTTP",
+                tcpResource: "TCP",
+                udpResource: "UDP",
+                httpMethod: "HTTP",
+                httpsMethod: "HTTPS",
+                h2cMethod: "H2C",
+                healthy: "Healthy",
+                unhealthy: "Unhealthy",
+                allSitesOnline: "All sites online",
+                onlineSitesFormat: "%d sites online",
+                onlineCountFormat: "%d online",
+                enabledCountFormat: "%d enabled",
+                verifiedCountFormat: "%d verified",
+                targetsCountFormat: "%d targets",
+                linkedSitesFormat: "%d linked sites",
+                triesFormat: "%d tries",
+                healthyCountFormat: "%d healthy",
+                unhealthyCountFormat: "%d unhealthy",
+                newtVersionFormat: "Newt %@",
+                exitNodeFormat: "Exit %@",
+                endpointFormat: "Endpoint %@",
+                proxyPortFormat: "Proxy %d",
+                destinationPortFormat: "Dest %d",
+                aliasFormat: "Alias %@",
+                dnsFormat: "DNS %@",
+                tcpPortsFormat: "TCP %@",
+                udpPortsFormat: "UDP %@",
+                authDaemonPortFormat: "Authd %d",
+                olmVersionFormat: "OLM %@",
+                resolverFormat: "Resolver %@",
+                rewriteFormat: "Rewrite %@",
+                healthPathFormat: "HC %@",
+                priorityFormat: "Priority %d",
+                trafficAmountFormat: "Traffic %@"
+            )
+        case .zh:
             return PangolinStrings(
                 serviceDescription: "Reverse proxy, tunneling and zero-trust networking",
                 loginHint: "Use a Pangolin integration API key. If using an org-scoped key (no root access), also enter your Organization ID.",
