@@ -36,7 +36,8 @@ enum class LanguageMode(val code: String, val flag: String) {
     ENGLISH("en", "🇬🇧"),
     FRENCH("fr", "🇫🇷"),
     SPANISH("es", "🇪🇸"),
-    GERMAN("de", "🇩🇪");
+    GERMAN("de", "🇩🇪"),
+    CHINESE("zh", "🇨🇳");
 
     companion object {
         fun fromCode(code: String?): LanguageMode {
