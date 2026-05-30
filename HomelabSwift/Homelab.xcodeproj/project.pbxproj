@@ -48,6 +48,7 @@
 		3782CAF7B067BBC9098EE91E /* RadarrModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7EDC22BCE4C069B41BA65C /* RadarrModels.swift */; };
 		37CBDADA59AC66BC5639663F /* QbittorrentDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514838C728FAF7E9BA95F1B1 /* QbittorrentDashboard.swift */; };
 		3C9BDFAE94048BBD360AF601 /* Translations+Spanish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E07D5410F384A295BD284 /* Translations+Spanish.swift */; };
+		8DEF91F5989DF840195B9ECB /* Translations+Chinese.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD6432CDAA149EFD88D77B5 /* Translations+Chinese.swift */; };
 		3D3519C51168694146FB2672 /* BeszelLineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D0F063C9B955AB9794F2AF /* BeszelLineGraph.swift */; };
 		3F93EE54AF0FCD4CFFF0969D /* TechnitiumAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6BFF54C5FE544768FDAB0 /* TechnitiumAPIClient.swift */; };
 		425401921C3462FF550B4A54 /* Translations+German.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4E1F3D8C9220951D71974F /* Translations+German.swift */; };
@@ -225,6 +226,7 @@
 		19F58DFAF2218D934F936D17 /* HomelabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomelabApp.swift; sourceTree = "<group>"; };
 		1B6C9B54D25DB2230917C8F8 /* AdGuardHomeBlockedServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdGuardHomeBlockedServicesView.swift; sourceTree = "<group>"; };
 		1D7E07D5410F384A295BD284 /* Translations+Spanish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Translations+Spanish.swift"; sourceTree = "<group>"; };
+		EAD6432CDAA149EFD88D77B5 /* Translations+Chinese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Translations+Chinese.swift"; sourceTree = "<group>"; };
 		20344A156307D01F253B3529 /* SonarrDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarrDashboard.swift; sourceTree = "<group>"; };
 		2165BE8E2471EC0D1A745B5E /* ProxmoxHAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxmoxHAView.swift; sourceTree = "<group>"; };
 		24417C29BDF77D8FA1C6305A /* RadarrDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarrDashboard.swift; sourceTree = "<group>"; };
@@ -986,9 +988,10 @@
 				FC6C069732CC13919CD60F36 /* Translations+French.swift */,
 				2B4E1F3D8C9220951D71974F /* Translations+German.swift */,
 				64D8F0162AE327AA60600505 /* Translations+Italian.swift */,
-				1D7E07D5410F384A295BD284 /* Translations+Spanish.swift */,
-			);
-			path = Localization;
+			1D7E07D5410F384A295BD284 /* Translations+Spanish.swift */,
+			EAD6432CDAA149EFD88D77B5 /* Translations+Chinese.swift */,
+		);
+		path = Localization;
 			sourceTree = "<group>";
 		};
 		9F580510490E095DDA1A63B9 /* Services */ = {
@@ -1597,8 +1600,9 @@
 				5A1A77E754C5CDAB7A67D713 /* Translations+French.swift in Sources */,
 				425401921C3462FF550B4A54 /* Translations+German.swift in Sources */,
 				8BE00328A6AC68DF3E40F05B /* Translations+Italian.swift in Sources */,
-				3C9BDFAE94048BBD360AF601 /* Translations+Spanish.swift in Sources */,
-				AAA9BC382610A55D8E374C95 /* Translations.swift in Sources */,
+			3C9BDFAE94048BBD360AF601 /* Translations+Spanish.swift in Sources */,
+			8DEF91F5989DF840195B9ECB /* Translations+Chinese.swift in Sources */,
+			AAA9BC382610A55D8E374C95 /* Translations.swift in Sources */,
 				53AE4DC63535738D1804E28B /* TrueNASAPIClient.swift in Sources */,
 				0B2C4949117F87CDA9133773 /* TrueNASDashboard.swift in Sources */,
 				2A2B324A3BEE70896105D4DA /* TrueNASModels.swift in Sources */,
